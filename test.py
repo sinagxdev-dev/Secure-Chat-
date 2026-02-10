@@ -32,6 +32,6 @@ def start_server():
         
         # Optional: Print how many people are online
         print(f"[Active Connections] {threading.active_count() - 1}")
-
+print()
 if __name__ == "__main__":
     start_server()
